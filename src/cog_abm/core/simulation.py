@@ -26,8 +26,8 @@ class Simulation(object):
         self.interaction = interaction
         self.agents = tuple(agents)
         self.statistic = []
-        self.dump_often = False
-        self.pb = pb
+        self.dump_often = True
+        self.pb = True
 
 
     def dump_results(self, iter_num):
